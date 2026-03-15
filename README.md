@@ -1,11 +1,15 @@
-<div align="center">
+# AuditFlow.ai
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+AuditFlow.ai est un outil d'audit de sites web utilisant l'IA pour analyser la conception, le contenu, la performance, le SEO, l'accessibilité et la sécurité.
 
-  <h1>Built with AI Studio</h2>
+## Configuration
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Pour augmenter les limites de l'API PageSpeed Insights (et éviter l'erreur `QUOTA_EXCEEDED`), vous devez configurer une clé API Google Cloud :
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+1.  Allez sur la [Google Cloud Console](https://console.cloud.google.com/).
+2.  Créez ou sélectionnez un projet.
+3.  Activez l'API **PageSpeed Insights**.
+4.  Créez une **Clé API** (API Key).
+5.  Copiez la clé.
+6.  Créez un fichier `.env` à la racine du projet (basé sur `.env.example`) et ajoutez votre clé :
+    `VITE_PAGESPEED_API_KEY=votre_cle_api_ici`

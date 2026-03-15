@@ -1,0 +1,5 @@
+{
+  "name": "AuditFlow AI",
+  "description": "Une interface professionnelle d'audit de site web alimentée par Gemini. Saisissez des scores, obtenez des analyses en temps réel et générez des rapports complets.",
+  "requestFramePermissions": []
+}
